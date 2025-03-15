@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drivers Welfare</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .hero {
+            position: relative;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-bottom: 5px solid #0056b3;
+            overflow: hidden;
+        }
+        .hero img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        #about img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+
+        #testimonials img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Keep width and height equal for a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    display: block;
+    margin: 10px auto;
+    object-fit: cover; /* Ensures the image fills the circle properly */
+}
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 5px;
+        }
+        .cta {
+            background: #28a745;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .cta:hover {
+            background: #218838;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        #contact img {
+    width: 250px; /* Small banner size */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px; /* Slight rounding for a modern look */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                padding: 10px;
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+            .gallery img {
+                width: 100%;
+            }
+        }
+
+
+        #services {
+    text-align: left;
+}
+#services h2{
+    text-align: center;
+}
+
+#services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#services li {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    .hero img {
+        object-position: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 150px;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="hero">
+        <img src="image/11.png" alt="Hero Image">
+    </div>
+    <header>
+        <h1>DRIVERS WELFARE SOCIETY</h1>
+        <p>S.Ghouse, Lingeshwar Nagar, Tirupati rural</p>
+        <p>Empowering Drivers, One Mile at a Time</p>
+    </header>
+   
+    
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <img src="image/11.png" alt="Drivers Welfare Organization">
+            <p>We are dedicated to improving the lives of professional drivers through support, resources, and community engagement.</p>
+<p>Our mission is to ensure that drivers have access to necessary services such as healthcare, legal support, and financial assistance.</p>
+<p>Beyond just assistance, we strive to create a thriving community where drivers can connect, share experiences, and gain valuable knowledge to enhance their careers. Through advocacy and awareness programs, we work towards better working conditions, fair wages, and recognition for the invaluable role that drivers play in society.</p>
+<p>By offering skill development workshops, wellness initiatives, and emergency response services, we aim to empower drivers with the tools they need to navigate challenges on and off the road. Our commitment extends beyond professional needs, fostering a support system that values their well-being and long-term growth.</p>
+
+        </section>
+        
+        <section id="services" class="section">
+            <h2>Services & Support</h2>
+            <img src="image/11.png" alt="Driver Assistance Services">
+            <ul>
+                <li>Healthcare & Insurance Assistance</li>
+                <li>Legal Support for Traffic Issues</li>
+                <li>Financial Aid & Loan Guidance</li>
+                <li>Emergency Assistance (Accidents, Roadside Help)</li>
+                <li>Skill Development & Training</li>
+            </ul>
+        </section>
+        
+        <section id="gallery" class="section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="IMG-20250313-WA0001.jpg" alt="Driver Support Event">
+                <img src="IMG-20250313-WA0002.jpg" alt="Community Gathering">
+                <img src="IMG-20250313-WA0003.jpg" alt="Safety Training Session">
+                <img src="IMG-20250313-WA0004.jpg" alt="Driver Workshop">
+                <img src="IMG-20250313-WA0005.jpg" alt="On-Road Assistance">
+                <img src="IMG-20250313-WA0001.jpg" alt="Health Check-Up for Drivers">
+            </div>
+        </section>
+        
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <img src="IMG-20250313-WA0001.jpg" alt="Happy Drivers">
+            <p>"This platform provided me with financial aid when I needed it the most. Truly a lifesaver!" – John D.</p>
+            <p>"Thanks to the driver skill training, I got a better job and improved my earnings!" – Maria T.</p>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact & Help</h2>
+            <img src="image/11.png" alt="Contact Us">
+            <p>Email: support@driverswelfare.org</p>
+            <p>Emergency Helpline: +1-800-DRIVERS-HELP</p>
+            <a href="#" class="cta">Get Support Now</a>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Drivers Welfare. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
